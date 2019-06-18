@@ -1,6 +1,5 @@
   const Discord = require('discord.js');
   const bot = new Discord.Client();
-  const token = process.env.token;
 
 
 
@@ -10,7 +9,7 @@
     bot.user.setActivity("DM to post in Secret Files")
   });
 
-  bot.login(token);
+  bot.login('NTg4NjE2NDgwMjIxMDM2NTQ0.XQj7xA.dMG3nmxvRZqb6eoI86xm-vDOqZM');
 
   bot.on('message', function(message){
       if (message.channel.type === 'dm'){
